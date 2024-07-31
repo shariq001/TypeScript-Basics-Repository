@@ -6,7 +6,7 @@ This repository is designed to help beginners grasp the fundamental concepts of 
 ## What's Included
 This repository covers the following topics:
 
-### Hello World: Your first TypeScript program, a simple introduction to the language.
+#### Hello World: Your first TypeScript program, a simple introduction to the language.
 ### Functions: Learn how to define and use functions effectively in TypeScript.
 ### Async Programming: Understand the basics of asynchronous operations with examples.
 ### Arrays and Objects: Explore how to work with arrays and objects, two fundamental data structures.
