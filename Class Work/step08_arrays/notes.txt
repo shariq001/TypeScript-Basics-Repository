@@ -1,0 +1,12 @@
+Arrays in TypeScript are a way to store multiple values in a single variable. They are similar to arrays in JavaScript but with added type safety. You can define arrays to hold specific types of data, ensuring that all elements in the array adhere to the specified type.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Array Methods
+TypeScript arrays support all standard array methods available in JavaScript, such as push, pop, map, filter, reduce, and more
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Arrays in TypeScript provide a powerful way to work with collections of data, offering type safety and flexibility to ensure your code is robust and maintainable.
+
+--------------------------------------------------------------------------------------------------------------------------
