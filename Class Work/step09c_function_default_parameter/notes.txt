@@ -1,0 +1,4 @@
+In TypeScript, a default parameter allows you to specify a default value for a function parameter. If the caller does not provide a value for that parameter, the default value is used instead. This feature is useful for making your functions more flexible and easier to use.
+
+--------------------------------------------------------------------------------------------------------------------------
+

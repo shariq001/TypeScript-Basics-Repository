@@ -1,0 +1,8 @@
+In TypeScript, function optional parameters allow you to define parameters that are not required when the function is called. Optional parameters are useful when you want to provide flexibility in the number of arguments a function can accept.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Syntax
+To make a parameter optional, you append a question mark (?) after the parameter name in the function definition.
+
+--------------------------------------------------------------------------------------------------------------------------
