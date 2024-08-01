@@ -1,0 +1,16 @@
+In TypeScript, structural typing (also known as "duck typing") is a way of relating types based on their members or structure rather than their explicit declarations. This means that two objects are considered to be of the same type if they have the same shape, regardless of whether they explicitly implement a particular interface or class.
+
+Object literals are a fundamental part of this concept. When you create an object literal, TypeScript infers its type based on its structure.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+- Summary
+
+-- Fresh Object Literals: These are literals directly assigned or passed. TypeScript performs excess property checks and 
+disallows any property not defined in the target type.
+
+-- Stale Object Literals: These are literals assigned to variables. When assigning these variables, TypeScript does not perform excess property checks.
+
+This behavior helps catch errors early when dealing with fresh literals but allows more flexibility with already-defined objects (stale literals).
+
+--------------------------------------------------------------------------------------------------------------------------

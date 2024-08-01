@@ -1,0 +1,16 @@
+const enums in TypeScript are a special kind of enum that provide better performance and smaller output by completely removing the enum object and inlining the values directly into the code at compile time. This is useful when you want to leverage enums but without the overhead of generating additional code for them.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Limitations
+There are a few limitations to const enums:
+
+No Computed Members: You cannot use computed values in const enums.
+
+Cannot Access Enum Object: Since the enum object does not exist at runtime, you cannot iterate over the enum members or access the enum as an object.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+By using const enums, you achieve more efficient and cleaner JavaScript output, which is beneficial for performance-critical applications.
+
+--------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,41 @@
+In TypeScript, any, unknown, and never are special types with specific use cases:
+
+--------------------------------------------------------------------------------------------------------------------------
+
+- any
+The any type represents any value and disables type checking for that value. It essentially tells TypeScript to opt-out of type checking for that particular variable, allowing you to assign any type of value to it.
+
+-- Characteristics:
+
+--- Flexibility: any can be assigned any value (string, number, object, etc.).
+--- Type Safety: Using any bypasses TypeScript's type checking, which can lead to runtime errors if not handled carefully.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+- unknown
+The unknown type is similar to any in that it can hold any value, but it requires that you perform some type of checking before you can use it. It is safer than any because it forces you to check the type before using the value.
+
+-- Characteristics:
+
+--- Type Safety: unknown requires type assertions or type guards to work with the value, which helps ensure type safety.
+--- Usage: Use unknown when you want to accept any value but need to validate it before using it.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+- never
+The never type represents values that never occur. It is typically used to indicate that a function never completes (e.g., it always throws an error or has an infinite loop) or to define a type that represents impossible values.
+
+-- Characteristics:
+--- Function Return Types: Functions that never return a value, either because they throw an exception or enter an infinite loop, should have the return type never.
+--- Exhaustiveness Checking: It can be used in exhaustive checks to handle cases that should be impossible.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+- Summary
+-- any: Disables type checking and allows any type of value. Use with caution as it can lead to runtime errors.
+-- unknown: Represents any value but requires type checking before using the value, making it safer than any.
+-- never: Represents values that never occur, useful for functions that never return and for exhaustive checks in type guards.
+
+Each of these types has its own specific use cases and understanding when and how to use them can help you write safer and more robust TypeScript code.
+
+--------------------------------------------------------------------------------------------------------------------------

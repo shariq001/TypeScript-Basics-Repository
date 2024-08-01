@@ -1,0 +1,8 @@
+Nested objects in TypeScript refer to objects that contain other objects as properties. This structure allows for organizing complex data in a hierarchical manner. TypeScript supports nested objects, and you can define their types explicitly to ensure type safety throughout your code.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Summary
+Nested objects in TypeScript allow for complex data structures by containing other objects as properties. By defining types for these nested objects, you ensure type safety and better organize your code. Accessing and updating nested properties is straightforward with dot notation, and optional properties can be handled using the ? operator.
+
+--------------------------------------------------------------------------------------------------------------------------

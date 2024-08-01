@@ -1,0 +1,15 @@
+Intersection types in TypeScript allow you to combine multiple types into a single type that has all the properties of the combined types. This is useful when you want to create a new type that merges the characteristics of several existing types.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+- Use Cases
+-- Combining Multiple Types: When you need an object to adhere to multiple types or interfaces.
+-- Augmenting Types: When adding properties to existing types or creating composite types from several sources.
+-- Merging Class Types: When working with class hierarchies and you need an object that satisfies multiple classes.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+- Summary
+Intersection types in TypeScript use the & operator to combine multiple types into a single type that has all the properties of the combined types. This is useful for creating composite types from various sources, combining properties, and augmenting existing types or interfaces.
+
+--------------------------------------------------------------------------------------------------------------------------

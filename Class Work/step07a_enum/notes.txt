@@ -1,0 +1,31 @@
+Enums in TypeScript are a way to define a set of named constants, which can make your code more readable and easier to manage. Enums allow you to define a collection of related values that can be numeric or string-based.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+- Numeric Enums
+
+Numeric enums are the default in TypeScript. By default, enums are assigned numeric values starting from 0, but you can also manually assign values.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+- String Enums
+
+String enums allow you to assign string values to each member.
+
+--------------------------------------------------------------------------------------------------------------------------
+ 
+- Heterogeneous Enums
+
+TypeScript also supports heterogeneous enums, which are enums that contain both string and numeric values. However, they are less common and not recommended unless necessary.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+- Enum Member Types
+
+Enum members can be constants or computed values. Constant values are either literals or other constant enum members, while computed values are expressions.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Enums in TypeScript are a powerful way to manage related constants, providing meaningful names for sets of values and helping to avoid common errors with magic numbers or strings in your code.
+
+--------------------------------------------------------------------------------------------------------------------------
