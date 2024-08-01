@@ -1,0 +1,3 @@
+In TypeScript, a syntax error occurs when the code does not conform to the rules and structure defined by the TypeScript language. These errors can arise from a variety of issues, such as incorrect variable declarations, missing or misplaced punctuation, incorrect use of language features, and more.
+
+------------------------------------------------------------------------------------------------------------

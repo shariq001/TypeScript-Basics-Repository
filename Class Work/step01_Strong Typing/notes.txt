@@ -1,0 +1,3 @@
+Strong typing in TypeScript refers to the language's ability to enforce strict adherence to type definitions at compile time. This means that TypeScript requires that variables, function parameters, return types, and object properties all conform to their specified types. Strong typing helps catch errors early in the development process, improves code readability, and makes it easier to maintain and refactor code.
+
+--------------------------------------------------------------------------------------------------------------

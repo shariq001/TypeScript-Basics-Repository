@@ -1,0 +1,3 @@
+"Hello, World!" is a simple program used as an introductory exercise in programming. It typically outputs the phrase "Hello, World!" to the display screen or a text output device. Hello World is a first program of a programming language a programmer is firstly taught in order to enter him to a programming world. This easy program helps programmers initialize their new programming journey.The purpose of this exercise is to familiarize beginners with the basic syntax of a programming language and to verify that a language's compiler or interpreter is correctly installed and functioning.
+
+-----------------------------------------------------------------------------------------------------------

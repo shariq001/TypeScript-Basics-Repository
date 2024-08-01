@@ -1,0 +1,3 @@
+Assignability errors in TypeScript occur when you attempt to assign a value to a variable, parameter, or property that does not match the expected type. These errors are a subset of type errors and are detected at compile time, ensuring that variables are only assigned values compatible with their declared types.
+
+------------------------------------------------------------------------------------------------------------

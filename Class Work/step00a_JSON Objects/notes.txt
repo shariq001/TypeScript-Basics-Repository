@@ -1,0 +1,54 @@
+JSON stands for Javascript Object Notation.
+JSON is a text-based data format that is used to store and transfer data.
+
+------------JSON objects is not similar to Javascript objects------------
+
+because JavaScript objects can contain functions but JSON not.
+JavaScript objects can only be used in JavaScript but JSON can be created and used by other programming languages.
+
+--------------------------------JSON DATA--------------------------------
+
+JSON data consists of key/value pairs similar to JavaScript object properties.
+The key and values are written in double quotes separated by a (:)
+
+Example: ("name": "Muhammad")
+
+--------------------------------JSON Objects-----------------------------
+
+The JSON object is written inside curly braces { }.
+JSON objects can contain multiple key/value pairs.
+
+Example: {
+    "name": "Muhammad Shariq",
+    "age": 17
+}
+
+-------------------------------JSON Arrays -------------------------------
+
+JSON array is written inside square brackets [ ].
+
+Example: ["name": "Muhammad", "age": 17]
+
+---------------------------Assessing JSON Data----------------------------
+
+We can acces JSON Data using dot Notation
+
+Example: const detail = { "name": "Shariq", "age": 17 }
+
+         console.log(detail.name); // Shariq
+
+We can also use square bracket syntax [] to access JSON data.
+
+Example:
+
+const detail = { 
+                "name": "Shariq", 
+                "age": 17 
+               }
+
+               console.log(detail["age"]); // 17
+
+---------------------Uses of JSON----------------------------------------
+JSON is the most commonly used format for transmitting data (data interchange) from a server to a client and vice-versa.
+JSON data are very easy to parse and use.
+JSON is language independent(We can create and use JSON in other programming languages too).

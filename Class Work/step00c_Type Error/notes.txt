@@ -1,0 +1,3 @@
+A type error in TypeScript occurs when the values assigned to variables or passed to functions do not match the expected data types. TypeScript is a statically typed language, meaning it checks types at compile time, which helps catch errors early in the development process.
+
+------------------------------------------------------------------------------------------------------------
