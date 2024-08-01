@@ -1,0 +1,23 @@
+Native ECMAScript Modules (ES Modules or ESM) are a standardized module system introduced in ECMAScript 2015 (ES6). TypeScript fully supports ES Modules, which provide a robust way to organize and encapsulate code into reusable units. ES Modules allow developers to create modular applications, where each module can export and import specific functionalities.
+
+-----------------------------------------------------------------------------------------------------
+
+- Key Features of ECMAScript Modules
+
+-- Syntax:
+
+--- Exporting: Use export and export default to expose parts of a module.
+--- Importing: Use import to bring in functionalities from other modules.
+--- Scope: Modules have their own scope, meaning variables, functions, and classes defined in a module are not visible outside unless explicitly exported.
+--- Loading: Modules are loaded asynchronously, and dependencies are resolved before execution, promoting better performance and avoiding the "callback hell" of older module systems like CommonJS.
+
+--- Browser Support: Modern browsers support ES Modules natively, allowing for direct use in web applications without bundlers like Webpack, though bundlers are often used for optimization and compatibility reasons.
+
+-----------------------------------------------------------------------------------------------------
+
+- Advantages of Using ECMAScript Modules
+
+-- Standardization: ES Modules are part of the ECMAScript standard, ensuring consistency and interoperability across different environments and tools.
+-- Scoping: Modules have their own scope, preventing variable and function conflicts.
+-- Async Loading: ES Modules are loaded asynchronously, which can improve application performance.
+-- Tree Shaking: Bundlers can perform tree shaking to eliminate unused code, reducing the final bundle size.

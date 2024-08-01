@@ -1,0 +1,3 @@
+Union literals in TypeScript are a type system feature that allows you to specify that a value can be one of several specified types or values. They are particularly useful when you want to restrict a variable to a fixed set of values, which can be types or literal values (like strings, numbers, or booleans).
+
+--------------------------------------------------------------------------------------------------------------------------
