@@ -1,0 +1,27 @@
+In TypeScript (and JavaScript), async is a keyword used to define an asynchronous function. An asynchronous function is a function that returns a Promise and allows you to write code that performs asynchronous operations in a more readable and manageable way, often referred to as "synchronous-looking" code.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+- Key Concepts:
+
+-- async Keyword:
+
+When you declare a function with the async keyword, the function will automatically return a Promise, even if you don't explicitly return a Promise object.
+await Keyword:
+
+Inside an async function, you can use the await keyword to pause the execution of the function until a Promise is resolved or rejected. This allows you to write asynchronous code that looks more like synchronous code, making it easier to read and manage.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+- Benefits of async/await:
+
+-- Improved readability: Makes asynchronous code easier to read and write compared to using Promise chaining with .then() and .catch().
+-- Error handling: Allows you to use try...catch for error handling, which can be more intuitive than dealing with promise rejections.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Compatibility:
+async/await is supported in TypeScript, which compiles down to JavaScript that is compatible with environments that support ES2017 (ES8) or later.
+This makes handling asynchronous operations, like fetching data from an API or reading files, much more manageable.
+
+--------------------------------------------------------------------------------------------------------------------------
